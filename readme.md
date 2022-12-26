@@ -18,7 +18,7 @@ Projeto desenvolvido no curso de HTML5 e CSS3 (p1) da Alura.
 <br>
 
 <p align="center">
-  <img alt="Página da Barbearia Alura" src="Fotos/preview.jpg" width="100%">
+  <img alt="Página da Barbearia Alura" src="preview.jpg" width="100%">
 </p>
 
 ## 🚀 Tecnologias
