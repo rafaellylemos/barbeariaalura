@@ -1,0 +1,35 @@
+h1 {
+    padding: 20px;
+}
+.banner {
+    width: 100%;
+}
+.principal {
+    text-align: center;
+    background: #cccccc;
+    padding: 30px;
+}
+.feat {
+    font-size: 20px;
+}
+em strong {
+    color: #FF0000;
+}
+.beneficios {
+    padding: 20px;
+}
+li {
+    font-style: italic;
+}
+h3 {
+    text-align: center;
+}
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+.imgbeneficios {
+    width: 50%;
+}
