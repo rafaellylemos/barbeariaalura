@@ -1,7 +1,7 @@
 <h1 align="center"> Barbearia Alura </h1>
 
 <p align="center">
-Projeto desenvolvido no curso de HTML5 e CSS3 (pt1, pt2 e pt3) da Alura.
+Projeto desenvolvido no curso de HTML5 e CSS3 (pt1, pt2, pt3 e pt4) da Alura.
 </p>
 
 <p align="center">

@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Style-home.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <title>Barbearia Alura</title>
 </head>
 <body>
@@ -19,28 +23,45 @@
             </nav>
         </div>
     </header>
-    <h2>Barbearia Alura</h2>
+
     <img class="banner" src="banner.jpg" alt="Barbearia Alura">
-    <div class="principal">
-        <h3> Sobre a Barbearia Alura </h3>
-            <p> Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia.</p>
+     
+    <main>
+        <section class="principal">
+            <h2 class="titulo-principal"> Sobre a Barbearia Alura </h2>
+            <img class="utensilios" src="imgsgeral/utensilios.jpg" alt="Utensilios de barbearia">
+                <p> Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia.</p>
 
-            <p class="feat"><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes".</strong></em></p>
+                <p id="missao"><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes"</strong>.</em></p>
 
-            <p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
+                <p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
 
-    </div>
-    <div class="beneficios">
-        <h4>Benefícios</h4>
+        </section>
+        <section class="mapa">
+            <h3 class="titulo-principal">Nosso estabelecimento</h3>
+            <p>Nosso estabelecimento está localizado no coração da cidade.</p>
+            <div class="mapa-conteudo">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117044.94623744246!2d-46.73670817832997!3d-23.544923387922125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a2b2ed7f3a1%3A0xab35da2f5ca62674!2sAlura%20-%20Escola%20Online%20de%20Tecnologia!5e0!3m2!1spt-BR!2sbr!4v1672338575090!5m2!1spt-BR!2sbr" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+        <section class="beneficios">
+            <h3 class="titulo-principal">Benefícios</h3>
 
-        <ul class="listabeneficios">
-            <li class="libeneficios">Atendimento aos Clientes</li>
-            <li class="libeneficios">Espaço diferenciado</li>
-            <li class="libeneficios">Localização</li> 
-            <li class="libeneficios">Profissionais Qualificados</li>
-        </ul>
-        <img class="imgbeneficios" src="beneficios.jpg" alt="beneficios">
-    </div>
+            <div class="conteudo-beneficios">
+                <ul class="lista-beneficios">
+                    <li class="itens">Atendimento aos Clientes</li>
+                    <li class="itens">Espaço diferenciado</li>
+                    <li class="itens">Localização</li> 
+                    <li class="itens">Profissionais Qualificados</li>
+                    <li class="itens">Pontualidade</li>
+                    <li class="itens">Limpeza</li>
+                </ul><img src="beneficios.jpg" alt="beneficios" class="imagem-beneficios">
+            </div>
+            <div class="video">
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/wcVVXUV0YUY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </section>
+    </main>
     <footer>
         <img src="imgpag2/logo-branco.png" alt="Logo Barbearia Alura">
         <p class="copyright">&copy; Copyright Barbearia Alura - 2022</p>
