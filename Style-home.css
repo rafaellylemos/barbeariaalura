@@ -32,42 +32,40 @@ nav {
     top: 110px;
     right: 0;
 }
-.produtos {
-    width: 940px;
-    margin: 0 auto;
-    padding: 50px 0;
+h2 {
+    padding: 20px;
 }
-.produtos li {
-    display: inline-block;
+.banner {
+    width: 100%;
+}
+.principal {
     text-align: center;
-    width: 30%;
+    background: #cccccc;
+    padding: 30px;
+}
+.feat {
+    font-size: 20px;
+}
+em strong {
+    color: #FF0000;
+}
+.beneficios {
+    padding: 20px;
+}
+.libeneficios {
+    font-style: italic;
+}
+h4 {
+    text-align: center;
+}
+.listabeneficios {
+    display: inline-block;
     vertical-align: top;
-    margin: 0 1.5%;
-    padding: 30px 20px;
-    box-sizing: border-box;
-    border: 2px solid var(--secondary-color);
-    border-radius: 10px;
+    width: 20%;
+    margin-right: 15%;
 }
-.produtos li:hover {
-    border-color: var(--border-color);
-}
-.produtos li:active {
-    border-color: #088c19;
-}
-.produtos li:hover h2 {
-    font-size: 34px;
-}
-.produtos h2 {
-    font-size: 30px;
-    font-weight: bold;
-}
-.produto-descricao {
-    font-size: 18px;
-}
-.produto-preco {
-    font-size: 22px;
-    font-weight: bold;
-    margin-top: 10px;
+.imgbeneficios {
+    width: 50%;
 }
 footer {
     text-align: center;
